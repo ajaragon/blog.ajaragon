@@ -5,10 +5,8 @@
 @import "code";
 
 // variable overrides
-$theme-color: {{ default "#101820FF" .Site.Params.themeColor }};//#ff7300
-$theme-inverse-color: {{ default "#FEE715FF" .Site.Params.themeInverseColor }};
-$user-theme-color1: {{ default "#EB1736" .Site.Params.themeColor}};
-$user-theme-color2: {{ default "#FF5A09" .Site.Params.themeColor}};
+$theme-color: {{ default "#ff7300" .Site.Params.themeColor }};
+$theme-inverse-color: {{ default "#000000" .Site.Params.themeInverseColor }};
 
 // theme styles
 @import "variables";

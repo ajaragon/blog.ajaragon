@@ -3,6 +3,10 @@ languageCode: 'es'
 title: 'Proyecto Hugo'
 theme: "colordrop" 
 
+params: 
+  description: Bienvenido al sitio web de A. J. Aragón sobre el software Hugo.
+  siteLogo: "/arbol_logo.jpg"
+
 languages:
   en:
     languageName: English
