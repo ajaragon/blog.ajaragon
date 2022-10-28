@@ -1,0 +1,45 @@
+Hola
+
+Añadí el Mermaid pero no funcionó, sin embargo no se muestra. No debo de saber escribirlo correctamente. 
+Primero copié el ejemplo de clase. No me dio problemas. Pero en cuanto cambiaba una palabra de ese Mermaid, 
+en la página web se mostraba el contenedor del esquema en un gris oscuro.
+
+Quise poder añadir una opción donde el usuario pudiera cambiar los colores del sitio. Era demasiado complejo para mí
+y abandoné la idea.
+
+También quería añadir unos menús con ajustes en el lateral de la página web porque quedaba muy desangelada. 
+Al principio me dejó y pude añadir unos menús bien feos. 
+No obstante, un día cambié algo en algún html y, 
+no sé por qué, en algún momento si introducía código nuevo ya no se mostraba ni un menú, ni un botón...
+
+No entendí el ejercicio de los tags.
+
+Para el logo había que añadir en el config: 
+
+params:
+  siteLogo: "/nrgSystems_logo.png"
+  
+En este tema, lo de los idiomas es muy sencillo.
+
+En el archivo config se añade:
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+  es:
+    languageName: Español
+    weight: 2
+    
+  fr:
+    languageName: Français
+    weight: 3
+    
+ Luego para cada página web se hace una copia en cada idioma y se le añade .en, .es o .fr (en mi caso). 
+ Esto sirve para especificar que idioma es y que aparezca la pestaña con el idioma correspondiente.
+
+Un saludo.
+
+
+
