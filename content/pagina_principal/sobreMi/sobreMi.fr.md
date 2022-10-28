@@ -10,3 +10,7 @@ draft: false
 ## A. J. Aragón
 
 Salut, je suis un étudiant de DAW.
+
+>>{{<vimeo 424517273>}}
+
+* * *
