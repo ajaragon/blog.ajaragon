@@ -41,8 +41,3 @@ Dans mon cas, je vais énumérer les étapes pour le télécharger et l'installe
 >>{{<youtube lKT-tztvIEU>}}
 
 * * *
-
-git add . /*
-git commit -m ""
-git push origin main
-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
